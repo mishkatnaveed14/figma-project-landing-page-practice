@@ -1,4 +1,5 @@
 @media only screen and (max-width: 835px) {
+
     .sec {
         flex-direction: column;
         justify-content: center;
@@ -21,13 +22,39 @@
     .sec2-3-2 {
         width: 343px;
     }
+    /* secttion 2 */
+    .section-2-img img{
+    width: 500px;
+    height: 400px;
 }
-
+.header-con2{
+    display: none;
+}
+.header-con3{
+    display: none;
+}
+}
+@media only screen and (max-width: 688px) {
+    .header{
+        justify-content: flex-start;
+        padding: 0 1em;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .section3{
+        padding: 2em;
+    }
+}
 @media only screen and (max-width: 600px) {
     .sec1-1 h1 {
         font-size: 3.5vmax;
     }
-
+ .header{
+        justify-content: flex-start;
+        padding: 0 1em;
+        width: 100vw;
+        overflow-x: hidden;
+    }
     .sec2-3-1 .mini-pic {
         width: 40px;
         left: 0.1em;
@@ -41,9 +68,15 @@
         overflow-x: hidden;
     }
 
-    header {
+    /* header {
         width: 90vw;
-        /* overflow-x: hidden; */
+        /* overflow-x: hidden; 
+    } */
+      .header{
+        justify-content: flex-start;
+        padding: 0 1em;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
     .header-con1 h1 {

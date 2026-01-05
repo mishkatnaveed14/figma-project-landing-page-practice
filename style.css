@@ -189,6 +189,7 @@ button:hover {
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 /* whole container of both both card */
 .sec2-3-1 {
     display: flex;
@@ -200,6 +201,7 @@ button:hover {
     flex-direction: column;
 
 }
+
 /* mango card card */
 .sec2-4-1 {
     width: 165px;
@@ -216,6 +218,7 @@ button:hover {
     border-radius: 10px;
 
 }
+
 /* avocado card container*/
 .mini-cards {
     display: flex;
@@ -229,6 +232,7 @@ button:hover {
     position: relative;
     top: -4px;
 }
+
 /* avocado card */
 .sec-2-6-1 {
     width: 165px;
@@ -243,7 +247,8 @@ button:hover {
     border-radius: 10px;
     margin-top: 1em;
 }
- /* card side object1 */
+
+/* card side object1 */
 .sec-2-7 {
     /* border: 2px solid; */
     display: flex;
@@ -253,13 +258,133 @@ button:hover {
     bottom: -9em;
     padding: 0 8px;
 }
-   /* card side object2 */
+
+/* card side object2 */
 .sec-2-7 .object {
     position: relative;
     left: 6.5em;
     background: transparent;
 }
+
 /* hero section end  */
- /* section2 start */
-     
-     /* section2 end  */
+/* section2 start */
+.section2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-2-img img{
+    width: 700px;
+    height: 490px;
+}
+.section-2-con {
+    width: 350px;
+    height: 532px;
+    margin-left: -4em;
+    padding: 30px;
+}
+
+.section-2-con h1 {
+    font-weight: 700;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.sec-2-container span {
+    margin-left: 4px;
+}
+
+.sec-2-container {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* section2 end  */
+/* section 3 start */
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  background-color: #EEF1F7;
+  min-height: 500px;
+  /* height: ; */
+}
+.sec-3-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.sec-3-card{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     align-items: center;
+     width: 230px;
+     height: 182px;
+     gap: 10px;
+     background-color: var(--text-fill-color);
+}
+.sec-3-card p{
+    text-align: center;
+    line-height: 1.3;
+}
+.section-3-container-1{
+    text-align: center;
+    width: 39vmax;
+    line-height: 1.4;
+}
+.section-3-container-1 p{
+    margin-bottom: 32px;
+}
+.section-3-container-1 h2{
+    margin-bottom: 3px;
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+/* section3 end  */
+/* section4 start  */
+.section4 { 
+    border: 2px solid;
+    min-height: 680px;
+}
+.section4 h2{
+    text-align: center;
+    margin: 30px 0;
+}
+.section-4-container{
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+  
+}
+.section-4-container-1{
+    border: 2px solid ;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      flex-wrap: wrap;
+    gap: 30px;
+  padding: 20px;
+}
+.section-4-card{
+  border: 2px solid ;  
+ height: 200px;
+ width: 340px;
+ 
+}
+.sec-4-mini-container{
+  display: flex;
+}
+.section-4-container-2{
+     border: 2px solid ;
+}
+
+/* section4 end  */
