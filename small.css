@@ -1,0 +1,130 @@
+@media only screen and (max-width: 835px) {
+    .sec {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-3 {
+        margin-top: -1em;
+    }
+
+    .sec1-1 h1 {
+        font-size: 2.8vmax;
+    }
+
+    .sec2-3-1 .mini-pic {
+        position: relative;
+        top: -12em;
+    }
+
+    .sec2-3-2 {
+        width: 343px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sec1-1 h1 {
+        font-size: 3.5vmax;
+    }
+
+    .sec2-3-1 .mini-pic {
+        width: 40px;
+        left: 0.1em;
+        background-color: transparent;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 469px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 90vw;
+        /* overflow-x: hidden; */
+    }
+
+    .header-con1 h1 {
+        font-size: 3.2vmax;
+    }
+
+    .header-con1 img {
+        max-width: 20px;
+        max-height: 20px;
+        margin-right: 2px;
+        margin-top: 0.25em;
+    }
+
+    .header-con2 {
+        display: none;
+    }
+
+    .header-con3 {
+        display: none;
+    }
+
+    .sec1-2 button {
+        width: 8vmax;
+        height: 2vmax;
+
+    }
+
+    .sec1-1 {
+        width: 350px;
+        height: 400px;
+        margin: 2rem -2em 2rem 7em;
+        background-color: rgb(255, 166, 76);
+    }
+
+    .sec {
+        width: 200px;
+         /* overflow-x: hidden; */
+    }
+
+    .sec2 {
+        width: 500px;
+        margin-left: 1em;
+    }
+
+    /* container of upper short image and content */
+    .sec-3 {
+        margin-top: 2em;
+        margin-left: 6em;
+        /* width: ;
+    height: 80px; */
+    }
+
+    .sec2-3-1 {
+        width: 60vmax;
+        margin-left: 0 auto;
+    }
+
+    .sec2-3-2 .img1 {
+        height: 60vmax;
+    }
+
+    .sec2-4-1 {
+        width: 22vmax;
+        height: 26.5vmax;
+    }
+
+    .sec-2-6-1 {
+        width: 22vmax;
+        height: 26.5vmax;
+        margin-top: 0.5em;
+    }
+
+    /* card side object1 */
+    .sec-2-7 {
+        top: 5.3em;
+    }
+
+    /* card side object2 */
+    .sec-2-7 .object {
+        left: 5em;
+    }
+
+
+}

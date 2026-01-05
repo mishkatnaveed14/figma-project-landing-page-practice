@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1400px) {
+    .sec2 {
+        margin-right: 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .sec1-1 {
+        margin: 5rem;
+    }
+
+    .sec1-1 h1 {
+        line-height: 40px;
+    }
+
+    .sec2 {
+        margin-right: 2rem;
+
+    }
+}
+
+@media only screen and (max-width: 1125px) {
+
+    .sec1-2 button {
+        width: 13vmax;
+        height: 3vmax;
+    }
+
+    .sec1-2 input {
+        width: 16vmax;
+        height: 3vmax;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .sec1-2 button {
+        margin-left: 0.1em;
+        width: 13em;
+        height: 3em;
+    }
+
+    .sec1-2 input {
+        width: 12em;
+        height: 2.7em;
+        margin-bottom: 10px;
+
+    }
+
+    .sec2 {
+        margin-right: 1rem;
+    }
+
+    .sec1-1_1 p {
+        font-size: 1em;
+    }
+
+    .sec1-1 h1 {
+        line-height: 40px;
+        font-size: 2.5vmax;
+    }
+}
