@@ -3,6 +3,10 @@
         margin-right: 5rem;
     }
 
+    .section-2-con {
+        margin-left: -3em;
+        padding: 30px 30px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -18,6 +22,16 @@
         margin-right: 2rem;
 
     }
+    /* section 8 */
+    .section-8{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       text-align: center;
+    }
+    .section-8-container-2 img{
+        /* width: 70vmax; */
+    }
 }
 
 @media only screen and (max-width: 1125px) {
@@ -31,11 +45,13 @@
         width: 16vmax;
         height: 3vmax;
     }
+
     /* section 2 */
     .section-2-con {
         margin-left: 0;
+    }
 }
-}
+
 @media only screen and (max-width: 952px) {
     .sec1-2 button {
         margin-left: 0.1em;
@@ -61,5 +77,19 @@
     .sec1-1 h1 {
         line-height: 40px;
         font-size: 2.5vmax;
+    }
+
+    /* section 5 */
+    .section5 {
+        padding: 40px;
+    }
+
+    .section-5-container-1 h2 {
+        font-size: 3vmax;
+    }
+
+    .section-5-main {
+        align-items: center;
+        justify-content: center;
     }
 }
