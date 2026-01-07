@@ -272,6 +272,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    margin-bottom: 80px;
 }
 
 .sec3 p {
@@ -331,7 +332,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     background-color: #EEF1F7;
-    min-height: 500px;
+    min-height: 600px;
     /* height: ; */
 }
 
@@ -399,7 +400,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 90px;
-
+flex-wrap: wrap;
 }
 
 .section-4-container-1 {
@@ -407,7 +408,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+ flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
     margin-top: 40px;
@@ -455,9 +456,9 @@ button:hover {
     text-align: center;
 
 }
-
+/* for small screen */
 .secction-4-mini-container {
-    width: 500px;
+    width: 400px;
 }
 
 .secction-4-mini-container p {
@@ -696,47 +697,383 @@ button:hover {
 .section9-card p {
     font-size: 1.2em;
 }
+
 /* section9 end  */
 /* section10 start  */
-.section10{
+.section10 {
     width: 100%;
-    border: 2px solid ;
+    border: 2px solid;
     display: flex;
     justify-content: center;
-      margin: 100px 0;
-      padding: 20px;
-      background-color: #111827;
-      color: white;
+    margin: 100px 0;
+    padding: 20px;
+    background-color: #111827;
+    color: white;
 }
-.section10-container-1{
-/* border: 2px solid ; */
-padding: 50px;
+
+.section10-container-1 {
+    /* border: 2px solid ; */
+    padding: 50px;
 }
-.section10-container-1 h2{
+
+.section10-container-1 h2 {
     font-size: 2.5em;
-     font-family: "Roboto", Arial, Helvetica, sans-serif;
-     margin: 20px 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 20px 0;
 }
-.section10-container-1 p{
+
+.section10-container-1 p {
     font-size: 1.4em;
     line-height: 1.3;
 }
-.section10-container-1 div{
-  margin: 60px 0;
+
+.section10-container-1 div {
+    margin: 60px 0;
     /*  background-color: aqua; */
     font-size: 1.7em;
 
 }
+
 .section10-container-2 {
     width: 80vmax;
     margin: auto;
 }
-.section10-container-2 img{
-border: 2px solid ;
 
-width: 50vmax;
+.section10-container-2 img {
+    border: 2px solid;
+
+    width: 50vmax;
 }
 
 /* section10 end  */
-/* section4 end  */
-/* section4 end  */
+
+/* section11 start */
+.section11 {
+    width: 100%;
+}
+
+.section11 h2 {
+    text-align: center;
+    font-size: 2.7em;
+    margin: 150px 0 0;
+    font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.section11 .para {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.section11-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid; */
+    margin: 50px 0;
+}
+
+.section11-card {
+    /* border: 2px solid; */
+    width: 310px;
+    height: 330px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(156, 160, 172, 0.4);
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.section-11-img {
+    margin: 30px 0;
+}
+
+.sec-11-mini {
+    margin: 60px 0;
+}
+
+.rating-img {
+    margin: 10px 0;
+}
+
+/* section11 end  */
+/* section12 start  */
+.section12 h1 {
+    text-align: center;
+    font-size: 2.7em;
+    margin: 150px 0 60px;
+    font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.sec-12 {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.section-12-text-container h2 {
+    font-size: 3.5em;
+    /* line-height: 1.6; */
+    margin-top: -70px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+}
+
+.section-12-text-container p {
+    font-size: 1.6em;
+    line-height: 2.7;
+    font-weight: 500;
+}
+
+/* section12 end  */
+/* section13 start  */
+.section13 {
+    width: 100%;
+    background-color: #EEF1F7;
+    padding: 40px;
+}
+
+/* .section-13-container{
+text-align: center;
+margin: auto;
+} */
+.section-13-container1 {
+    text-align: center;
+}
+
+.section13 h1 {
+
+    font-size: 2.7em;
+    margin: 150px 0 0;
+    font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.section13 .section-13-container1 p {
+    font-size: 1.2em;
+    line-height: 3;
+    margin-bottom: 30px;
+}
+
+.sec-13-btn {
+    width: 264px;
+    height: 62px;
+    border: 1px solid rgb(192, 192, 192);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.sec-13-btn1 {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #111827;
+    color: var(--text-fill-color);
+    border: none;
+    cursor: pointer;
+}
+
+.sec-13-btn2 {
+    padding: 10px;
+    border: none;
+    background-color: var(--text-fill-color);
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.section13-cards {
+    /* border: 2px solid ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    gap: 30px;
+}
+
+.section13-card {
+    /* border: 2px solid ; */
+    height: 553px;
+    width: 310px;
+    padding: 30px;
+    border-radius: 13px;
+    background-color: var(--text-fill-color);
+    transition: all 0.1s ease-in-out;
+}
+
+.section13-card h3 {
+    font-size: 1.8em;
+    margin: 15px 0;
+}
+
+.section13-card h3 small {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.section13-btn {
+    /* padding: 9px 40px; */
+    width: 249px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    border: 3px solid #0066FF;
+    color: #0066FF;
+    background-color: white;
+}
+
+.section13-card p {
+    line-height: 2;
+    font-size: 1.1em;
+
+}
+
+.section13-card:hover {
+    border: 4px solid #0066FF;
+
+}
+
+.section13-card:hover .section13-btn {
+    background-color: #0066FF;
+    color: var(--text-fill-color);
+    margin-left: -4px;
+}
+
+/* section13 container 3 */
+.section-13-container-3 {
+    text-align: center;
+}
+
+.section13 .section-13-container-3 p {
+    font-size: 1.2em;
+    line-height: 3;
+    margin-bottom: 30px;
+}
+
+.faqs-container {
+    width: 100%;
+    min-height: 490px;
+    /* border: 2px solid */
+    padding: 3em 20em;
+}
+
+.q-box {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.answer {
+    margin-top: 10px;
+    height: 0 ;
+    opacity: 0;
+    padding: 0;
+transition: opacity 0.5s ease-in-out, mrgin-top 0.5s ease-in-out, height 0.5s ease-in-out ;
+    /* overflow: hidden; */
+
+}
+
+.q-box:hover .answer {
+    opacity: 1;
+    /* transform: translateY(-5px); */
+    /* transition: all 0.1s ease-in-out; */
+    padding: 2em;
+    margin-top: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* section13 end  */
+/* section14 start  */
+.section14 {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.section14 h1 {
+    font-size: 2.7em;
+    margin: 150px 0 0;
+    font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.section14 img {
+    width: 60%;
+    margin: 50px 0;
+}
+
+/* section14 end  */
+/* section15 start */
+.section15 {
+    background-color: #EEF1F7;
+    width: 100%;
+    text-align: center;
+    min-height: 500px;
+    padding: 1px 0;
+}
+
+.section15 h1 {
+    font-size: 2.7em;
+    margin: 100px 0 0;
+    font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.section15 p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.section15 .sec-1-3 ul {
+    /* border: 2px solid; */
+    padding: 8px 600px;
+}
+
+/* section5 end  */
+/* footer start */
+footer {
+    width: 100%;
+    background-color: #111827;
+    color: white;
+    min-height: 462px;
+}
+
+.footer-cons {
+    
+    gap: 80px;
+    padding: 50px 100px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+
+}
+
+.footer-con {
+    /* border: 2px solid; */
+    max-width: 200px;
+}
+.footer-con h3{
+    line-height: 3;
+    font-size: xx-large;
+}
+.footer-con p{
+    line-height: 1.4;
+    font-size: 1.4em;
+}
+.footer-min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+/* footer end  */
