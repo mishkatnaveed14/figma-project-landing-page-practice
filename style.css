@@ -400,7 +400,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 90px;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .section-4-container-1 {
@@ -408,7 +408,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;
- flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 30px;
     padding: 20px;
     margin-top: 40px;
@@ -456,6 +456,7 @@ flex-wrap: wrap;
     text-align: center;
 
 }
+
 /* for small screen */
 .secction-4-mini-container {
     width: 400px;
@@ -972,10 +973,10 @@ margin: auto;
 
 .answer {
     margin-top: 10px;
-    height: 0 ;
+    height: 0;
     opacity: 0;
     padding: 0;
-transition: opacity 0.5s ease-in-out, mrgin-top 0.5s ease-in-out, height 0.5s ease-in-out ;
+    transition: opacity 0.5s ease-in-out, mrgin-top 0.5s ease-in-out, height 0.5s ease-in-out;
     /* overflow: hidden; */
 
 }
@@ -1047,7 +1048,7 @@ footer {
 }
 
 .footer-cons {
-    
+
     gap: 80px;
     padding: 50px 100px;
     flex-wrap: wrap;
@@ -1062,18 +1063,22 @@ footer {
     /* border: 2px solid; */
     max-width: 200px;
 }
-.footer-con h3{
+
+.footer-con h3 {
     line-height: 3;
     font-size: xx-large;
 }
-.footer-con p{
+
+.footer-con p {
     line-height: 1.4;
     font-size: 1.4em;
 }
-.footer-min{
+
+.footer-min {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
 /* footer end  */
